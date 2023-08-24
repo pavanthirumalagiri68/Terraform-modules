@@ -43,11 +43,4 @@ output "private_data_sub_az2-cidr" {
     value = aws_subnet.private-data-sub-az2.id
 }
 
-output "availability_zone1" {
-    value = data.aws_availabilty_zones.availabilityzones.names.[0]
-}
-
-output "availability_zone2" {
-    value = data.aws_availabilty_zones.availabilityzones.names.[1]
-}
  
